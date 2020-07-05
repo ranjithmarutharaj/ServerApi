@@ -1,0 +1,29 @@
+#Server {
+  text-align: center;
+  font-family: arial, sans-serif;
+}
+
+#ServerData {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  width: 100%;
+}
+
+#ServerData td, #ServerData th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#ServerData tr:nth-child(even){background-color: #f2f2f2;}
+
+#ServerData tr:hover {background-color: #ddd;}
+
+#ServerData th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+}
